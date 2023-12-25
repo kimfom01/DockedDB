@@ -13,6 +13,8 @@ services:
       - nginx-network
   db:
     image: postgres
+    volumes:
+      - ./backup_file.dump:/etc/backup/backup_file.dump
     restart: always
     environment:
       POSTGRES_PASSWORD: P@ssword123
