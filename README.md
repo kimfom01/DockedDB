@@ -1,4 +1,7 @@
 # DockedDB
+
+A guide and script to migrate postgres from remote server to managed docker instance
+
 ## Create virtual machine
 
 * login to root
