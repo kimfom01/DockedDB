@@ -15,7 +15,7 @@ passwd {username}
 ```
 * make the user a sudoer 
 ```
-usermode -aG sudo {username}
+usermod -aG sudo {username}
 ```
 * login to user
 * setup docker in virtual machine (look for documentation on website)
